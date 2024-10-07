@@ -1,0 +1,106 @@
+/* Reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3e5f5; /* Light lavender background */
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #D996FE; /* Dark purple color */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ce93d8; /* Light purple border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #6a1b9a;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color: #4a148c; /* Deep purple color */
+}
+
+label { display: block; 
+        margin-bottom: 5px; 
+        color: #7b1fa2; 
+         font-weight: bold; }
+
+input{ 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1c4e9; /* Light lavender border */
+    border-radius: 4px;
+    background-color: #f3e5f5; /* Light lavender background */
+    font-size: 14px;
+    color: #4a148c; /* Deep purple color */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a1b9a; /* Dark purple color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a148c; /* Slightly darker purple on hover */
+}
+
+input:focus {
+    outline: none;
+    border-color: #6a1b9a; /* Dark purple border on focus */
+    box-shadow: 0 0 5px rgba(106, 27, 154, 0.5); /* Dark purple shadow on focus */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 27, 154, 0.5); /* Dark purple shadow on focus */
+}
+
+
+
+
+
+
+
